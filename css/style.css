@@ -4,7 +4,7 @@
 /* RESET STYLES ================================================== */
 html {height: 100%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 body {height: 100%;font-size:15px;font-family:"Book Antiqua","Palatino Linotype",Palatino, serif; font-weight: 200; line-height: 1.428571429;color: #333333;background-color: #ffffff;}
-h1 {margin: 0;font-weight:400;} 
+h1 {margin: 0;font-weight:400;}
 canvas{display: inline-block;}
 a {color: #00517B;text-decoration: none;}
 a:hover,a:focus {color: #000;text-decoration: underline;outline: none;}
@@ -105,7 +105,7 @@ ul.social li a.in:hover{background-position: -350px -100px;}
 .navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus,.navbar-inverse .navbar-nav > li > a.active {color: #fff;background-color: #A7B2BB;} /*text-shadow:1px 1px rgba(0,81,123,0.75);}*/
 .navbar-inverse .navbar-nav > .active > a,.navbar-inverse .navbar-nav > .active > a:hover,.navbar-inverse .navbar-nav > .active > a:focus {color: #ffffff;background-color: #00517B;}
 .navbar-inverse .navbar-nav > .disabled > a,.navbar-inverse .navbar-nav > .disabled > a:hover,.navbar-inverse .navbar-nav > .disabled > a:focus {color: #00517B;background-color: transparent;}
-.navbar-inverse .navbar-toggle {border-color: #00517B;} 
+.navbar-inverse .navbar-toggle {border-color: #00517B;}
 .navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {background-color: #A7B2BB;}
 .navbar-inverse .navbar-toggle .icon-bar {background-color: #ffffff;}
 .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {border-color: #A7B2BB;background-color:transparent;}
@@ -147,6 +147,7 @@ h4 {font-size:15px;margin:30px 0px 7.5px 0px;font-style: italic;font-weight:100;
 .bib-intent {margin:0px 0px 0px 15px;} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
 .bib {font-size:15px;margin:0px 0px 30px -15px;margin-bottom: 10px;} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
 .bib-name {font-weight:600; letter-spacing: 0.0em} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
+.bib-comment {font-style: italic; letter-spacing: 0.0em} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
 
 
 .no_intend {margin:0px 0px 12px 0px ;} /* background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
