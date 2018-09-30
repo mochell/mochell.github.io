@@ -211,22 +211,22 @@ h4 {font-size:15px;margin:30px 0px 7.5px 0px;font-style: italic;font-weight:100;
 }
 @media (min-width: 992px) {
   .container {width: 970px;}
-  .carousel {height: 300px;margin-bottom: 60px;text-align: center;width: 100%;}
-  .carousel .item {height:300px;}
-  .carousel-inner > .item > img {height:300px;}
+  .carousel {height: 243px;margin-bottom: 60px;text-align: center;width: 100%;}
+  .carousel .item {height:243px;}
+  .carousel-inner > .item > img {height:243px;}
   .c3.charts {width:25%;}
 }
 @media (min-width: 1200px) {
   .container {width: 1170px;}
+  .carousel {height: 293px;margin-bottom: 60px;}
+  .carousel .item {height:293px;}
+  .carousel-inner > .item > img {height: 293px;}
+}
+@media (min-width: 1600px) {
+  .container {width: 1570px;}
 .carousel {height: 400px;margin-bottom: 60px;}
   .carousel .item {height:400px;}
   .carousel-inner > .item > img {height:400px;}
-}
-@media (min-width: 1600px) {
-  .container {width: 1170px;}
-.carousel {height: 500px;margin-bottom: 60px;}
-  .carousel .item {height:500px;}
-  .carousel-inner > .item > img {height:500px;}
 }
 @media (max-width: 767px) {
   .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11 {width:100%;}
@@ -267,4 +267,10 @@ h4 {font-size:15px;margin:30px 0px 7.5px 0px;font-style: italic;font-weight:100;
   .navbar {display: none;}
 }
 
-@-ms-viewport {width: device-width;}
+@-ms-viewport {
+  .container {width: 2000px;}
+.carousel {height: 500px;margin-bottom: 60px;}
+  .carousel .item {height:500px;}
+  .carousel-inner > .item > img {height: 500px;}
+
+}
