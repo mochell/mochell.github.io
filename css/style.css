@@ -23,6 +23,7 @@ ul ul,ol ul,ul ol,ol ol {margin-bottom: 0;}
 .mt-100 {margin-top:100px;}
 .mb-20 {margin-bottom:20px;}
 .mb-100 {margin-bottom:100px;}
+.mb-500 {margin-bottom:500px;}
 .mt-40 {margin-top:40px;}
 .mt-80 {margin-top:80px;}
 .ta-c {text-align:center;}
@@ -37,6 +38,7 @@ ul ul,ol ul,ul ol,ol ol {margin-bottom: 0;}
 .c11 {width: 91.66666666666666%;}
 .c10 {width: 83.33333333333334%;}
 .c9 {width: 75%;}
+.c9v {width: 75%; margin-bottom:500px; margin-top:500px;}
 .c8 {width: 66.66666666666666%;}
 .c7 {width: 58.333333333333336%;}
 .c6 {width: 50%;}
@@ -145,6 +147,10 @@ h3 {font-size:15px;margin:0px 0px 7.5px 15px;font-style: italic;font-weight:100;
 h4 {font-size:15px;margin:30px 0px 7.5px 0px;font-style: italic;font-weight:100; letter-spacing: 0.05em} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
 
 .bib-intent {margin:0px 0px 0px 15px;} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
+
+.vis-intent {margin:0px 0px 0px 15px;margin-bottom: 150px;} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
+.vis2-intent {margin:0px 0px 0px 15px;margin-bottom: 20px;}
+
 .bib {font-size:15px;margin:0px 0px 30px -15px;margin-bottom: 10px;} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
 .bib-name {font-weight:600; letter-spacing: 0.0em} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
 .bib-comment {font-style: italic; letter-spacing: 0.0em} /* font-stretch background:transparent url('../icons/sep-line.gif') repeat-x 0 51%;*/
