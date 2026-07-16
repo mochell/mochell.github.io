@@ -1,0 +1,346 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ── Menu hover underline / mobile nav toggle color override ── */
+.greedy-nav .visible-links a:before {
+  background: #1a3e6f;
+}
+
+.navicon,
+.navicon:before,
+.navicon:after {
+  background: #767676;
+}
+
+.greedy-nav__toggle:hover .navicon,
+.greedy-nav__toggle:hover .navicon:before,
+.greedy-nav__toggle:hover .navicon:after {
+  background: #1a3e6f;
+}
+
+/* ── Global max-width ── */
+#main {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  box-sizing: border-box;
+}
+
+/* ── Base font size ── */
+html {
+  font-size: 16px;
+}
+
+/* ── Serif headings (Lora) ── */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.site-title {
+  font-family: 'Lora', Georgia, serif;
+}
+
+/* ── Nav links: blue underline on hover ── */
+.greedy-nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #1a3e6f;
+}
+
+/* ── Masthead site title: +2pt ── */
+.masthead .site-title {
+  font-size: calc(1em + 2pt);
+}
+
+/* ── Remove border under headings ── */
+h1, h2, h3, h4, h5, h6,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  border-bottom: none;
+}
+
+/* ── Body text links: dark gray, underlined ── */
+.page__content a {
+  color: #444;
+  text-decoration: underline;
+}
+
+/* ── Full-width content (no sidebar) ── */
+.layout--single .page {
+  float: left;
+  width: 100%;
+  padding-right: 0;
+}
+
+.page__inner-wrap {
+  margin-top: 0;
+}
+
+/* ── Homepage: full-width hero title block ── */
+body {
+  overflow-x: hidden;
+}
+
+.site-title-block {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 0;
+  margin-bottom: 3em;
+  padding: 8em 1em 10em;
+  text-align: center;
+
+  /* Background image set randomly by JS via custom property */
+  --hero-bg: url('https://mochell.github.io/pics/Wind_sea_waves-1536x768_tumb.jpg');
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: var(--hero-bg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+
+  /* Dark overlay for legibility */
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+  }
+
+  h1 {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 2.4em;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.2em;
+  }
+
+  .site-tagline {
+    position: relative;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.45em;
+    font-weight: 200;
+    margin: 0;
+  }
+}
+
+/* ── Homepage: left profile column ── */
+.profile-col-left {
+  float: left;
+  width: 250px;
+  margin: 0 2.5em 2em 0;
+  text-align: left;
+}
+
+.profile-photo {
+  width: 230px;
+  height: 230px;
+  border-radius: 0;
+  object-fit: cover;
+  filter: grayscale(100%);
+  display: block;
+  margin: 0 0 1em 0;
+}
+
+.profile-handles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+  font-size: 0.85em;
+  text-align: left;
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: #444;
+  }
+}
+
+/* ── Hide horizontal rules on all pages ── */
+.page__content hr {
+  display: none;
+}
+
+/* ── Research page: figure + text rows ── */
+.research-item {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  margin: 1em 0 3em;
+
+  .research-figure {
+    flex: 0 0 33.33%;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .research-text {
+    flex: 1;
+    min-width: 0;
+
+    p:first-child { margin-top: 0; }
+  }
+
+  &.figure-wide {
+    .research-figure {
+      flex: 0 0 66.67%;
+    }
+  }
+}
+
+/* ── People page: PI row ── */
+.person-row {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  margin: 1.5em 0 2em;
+
+  .person-photo {
+    width: 25%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    filter: none;
+    flex-shrink: 0;
+  }
+
+  .person-info {
+    h3 {
+      margin: 0 0 0.2em;
+      font-size: 1.1em;
+    }
+
+    .person-title {
+      font-size: 0.9em;
+      margin: 0 0 0.15em;
+    }
+
+    .person-affil {
+      font-size: 0.85em;
+      color: #777;
+      margin: 0 0 0.4em;
+    }
+
+    .person-links {
+      font-size: 0.85em;
+      margin: 0 0 0.7em;
+    }
+
+    p:last-child {
+      font-size: 0.9em;
+      margin: 0;
+    }
+  }
+}
+
+/* ── People page: collaborator grid ── */
+.collaborator-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  margin: 1.5em 0 2em;
+}
+
+@media (max-width: 600px) {
+  .person-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .person-photo {
+      width: 90%;
+      max-width: none;
+    }
+  }
+
+  .collaborator-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+
+  .collaborator-tile {
+    .collab-photo,
+    .collab-photo-placeholder {
+      width: 90%;
+      max-width: none;
+    }
+  }
+}
+
+.collaborator-tile {
+  img {
+    filter: none;
+  }
+
+  .collab-photo-placeholder {
+    width: 90%;
+    aspect-ratio: 1 / 1;
+    background: #ddd;
+    margin-bottom: 0.7em;
+  }
+
+  .collab-photo {
+    width: 90%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 0.7em;
+  }
+
+  .collab-name {
+    font-family: 'Lora', Georgia, serif;
+    font-weight: 600;
+    font-size: 0.95em;
+    margin: 0 0 0.2em;
+  }
+
+  .collab-affil {
+    font-size: 0.82em;
+    color: #666;
+    margin: 0 0 0.2em;
+  }
+
+  .collab-research {
+    font-size: 0.82em;
+    color: #999;
+    margin: 0;
+  }
+
+}
+
+/* ── People page: collaborator text list ── */
+.collaborator-list {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 2em;
+
+  li {
+    font-size: 0.95em;
+    padding: 0.3em 0;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

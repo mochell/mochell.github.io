@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm /Users/mommehell/Downloads/jekyll-site/Gemfile.lock)",
+      "Bash(bundle install *)",
+      "WebFetch(domain:willychap.github.io)",
+      "Bash(bundle exec *)",
+      "Bash(pdftotext \"/Users/mommehell/Downloads/CV \\(12\\).pdf\" -)",
+      "Bash(cat /tmp/jekyll_new.log | tail -5)",
+      "Bash(ruby --version)",
+      "Bash(/Users/mommehell/gems/bin/jekyll build *)",
+      "Bash(curl -s http://127.0.0.1:4001/people/)",
+      "Bash(curl -s http://127.0.0.1:4001/)"
+    ]
+  }
+}
