@@ -14,7 +14,7 @@ permalink: /
 (function() {
   var images = [
     "url('/assets/images/mhell_AA16_0009.jpg')",
-    "url('https://mochell.github.io/pics/Wind_sea_waves-1536x768_tumb.jpg')"
+    "url('{{ '/pics/Wind_sea_waves-1536x768_tumb.jpg' | relative_url }}')"
   ];
   var pick = images[Math.floor(Math.random() * images.length)];
   document.querySelector('.site-title-block').style.setProperty('--hero-bg', pick);
@@ -22,7 +22,7 @@ permalink: /
 </script>
 
 <div class="profile-col-left">
-<img class="profile-photo" src="https://mochell.github.io/pics/230921_mHell.jpg" alt="Momme C. Hell">
+<img class="profile-photo" src="{{ '/pics/230921_mHell.jpg' | relative_url }}" alt="Momme C. Hell">
 <nav class="profile-handles">
 <a href="https://www.whoi.edu/assistant-scientist-momme-hell/">WHOI Profile</a>
 <a href="https://github.com/mochell">GitHub</a>

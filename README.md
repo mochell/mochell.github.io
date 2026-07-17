@@ -31,8 +31,12 @@ mochell.github.io/
 └── README.md
 ```
 
-> **Keep your existing `/pics/` folder** — all image and CV links point to
-> `https://mochell.github.io/pics/...` which will still work.
+> **The `/pics/` folder must live in this branch.** Image and CV links use
+> `{{ '/pics/...' | relative_url }}`, which resolves against the deployed
+> site — so the files have to be committed here, not merely present on some
+> other branch. Do not use absolute `https://mochell.github.io/pics/...`
+> URLs: they resolve to the live site even during local `jekyll serve`,
+> which silently hides broken images until after deploy.
 
 ### 2. Enable GitHub Pages
 
@@ -82,7 +86,7 @@ All content is plain Markdown. No HTML needed.
 Update the `avatar` line in `_config.yml`:
 ```yaml
 author:
-  avatar: "https://mochell.github.io/pics/YOUR_PHOTO.jpg"
+  avatar: "/pics/YOUR_PHOTO.jpg"
 ```
 
 Or place a photo in `assets/images/` and reference it as `/assets/images/photo.jpg`.

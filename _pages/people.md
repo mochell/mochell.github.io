@@ -8,7 +8,7 @@ permalink: /people/
 ## Principal Investigator
 
 <div class="person-row">
-  <img class="person-photo" src="https://mochell.github.io/pics/230921_mHell.jpg" alt="Momme C. Hell">
+  <img class="person-photo" src="{{ '/pics/230921_mHell.jpg' | relative_url }}" alt="Momme C. Hell">
   <div class="person-info">
     <h3>Momme C. Hell</h3>
     <p class="person-title">Assistant Scientist &amp; Moltz Early Career Science Fellow</p>

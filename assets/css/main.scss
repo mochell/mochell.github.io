@@ -100,7 +100,7 @@ body {
   text-align: center;
 
   /* Background image set randomly by JS via custom property */
-  --hero-bg: url('https://mochell.github.io/pics/Wind_sea_waves-1536x768_tumb.jpg');
+  --hero-bg: url('{{ '/pics/Wind_sea_waves-1536x768_tumb.jpg' | relative_url }}');
 
   &::before {
     content: '';

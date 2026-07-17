@@ -27,7 +27,7 @@ timezone               : "America/New_York"
 # ──────────────────────────────────────────────
 author:
   name        : "Momme C. Hell"
-  avatar      : "https://mochell.github.io/pics/230921_mHell.jpg"
+  avatar      : "/pics/230921_mHell.jpg"
   bio         : "Assistant Scientist &<br>Moltz Early Career Science Fellow"
   location    : "Woods Hole, MA"
   email       : "mhell@whoi.edu"

@@ -9,7 +9,7 @@ permalink: /research/
 
 <div class="research-item">
   <div class="research-figure">
-    <img src="https://mochell.github.io/pics/PiCLES_2023_mhell.jpg" alt="PiCLES wave model">
+    <img src="{{ '/pics/PiCLES_2023_mhell.jpg' | relative_url }}" alt="PiCLES wave model">
   </div>
   <div class="research-text">
     <p>PiCLES is an efficient wave model for air-sea coupling in Earth System Models. It uses particle-based Lagrangian modeling with periodic remeshing to estimate swell in coupled Earth system models at a fraction of traditional computational cost.</p>
@@ -21,7 +21,7 @@ permalink: /research/
 
 <div class="research-item">
   <div class="research-figure">
-    <img src="https://mochell.github.io/pics/Wind_sea_waves-1536x768_tumb.jpg" alt="Surface waves">
+    <img src="{{ '/pics/Wind_sea_waves-1536x768_tumb.jpg' | relative_url }}" alt="Surface waves">
   </div>
   <div class="research-text">
     <p>The sea state controls momentum transfer across the air-sea boundary and alters surface stress, fluxes of CO₂, and heat between the atmosphere and the ocean. I focus on how synoptic-scale variability influences air-sea exchange through waves or upper ocean turbulence. I combine simple models of surface wave generation with optimization methods to apply them to ensembles of wave observations.</p>
@@ -32,7 +32,7 @@ permalink: /research/
 
 <div class="research-item">
   <div class="research-figure">
-    <img src="https://mochell.github.io/pics/Storm_waves_v2_100.png" alt="Storm waves">
+    <img src="{{ '/pics/Storm_waves_v2_100.png' | relative_url }}" alt="Storm waves">
   </div>
   <div class="research-text">
     <p>Storms generate swell events that many like to surf. I study how the dynamics of the storm determine the generated swell using idealized models, observations from wave buoys, remote sensing data, and non-linear optimization methods.</p>
@@ -44,7 +44,7 @@ permalink: /research/
 
 <div class="research-item figure-wide">
   <div class="research-figure">
-    <img src="https://mochell.github.io/pics/wavesinicesketch.png" alt="Waves in sea ice">
+    <img src="{{ '/pics/wavesinicesketch.png' | relative_url }}" alt="Waves in sea ice">
   </div>
   <div class="research-text">
     <p>Waves can break up, disperse, or drift sea ice and alter air-sea heat fluxes, playing a major role in globally retreating sea ice. I use satellite and in situ observations to understand how surface waves behave in sea ice, with a focus on the Marginal Ice Zone (MIZ). Waves in the MIZ are a dominant source of mechanical breaking of sea ice with potentially enormous consequences for air-sea exchange in that region.</p>
