@@ -15,6 +15,8 @@ Ayouche, A., Fox-Kemper, B., Hell, M., Pearson, B., and Wagner, C. PyTurbo_SF: A
 Dove, L. A., Forget, G., Hell, M., Hormann, V., and Marinov, I. Argo at a Crossroads: Achievements, Impacts, and the Imperative for Sustained Global Ocean Observations. *Oceanography*, 2026.  
 <https://doi.org/10.5670/oceanog.2026.e207>
 
+Hell, M., Fox-Kemper, B., and Ayouche, A. Scale-Dependent, Episodic Pathways of Turbulent Air-Sea Kinetic Energy Transfer. *Geophysical Research Letters* (submitted), 2026.
+
 ## 2025
 
 Hell, M., Fox-Kemper, B., and Chapron, B. A Particle-in-Cell Wave Model for Efficient Sea-State Estimates in Earth System Models — PiCLES. *Journal of Advances in Modeling Earth Systems*, 2025.  
