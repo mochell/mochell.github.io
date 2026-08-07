@@ -1,9 +1,5 @@
 # mochell.github.io — Jekyll site
 
-This repository uses the **Minimal Mistakes** Jekyll theme (the same theme as
-[willychap.github.io](https://willychap.github.io)), deployed via GitHub Pages.
-
----
 
 ## Deployment (one-time setup)
 
