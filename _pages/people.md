@@ -29,6 +29,15 @@ permalink: /people/
 
 <div class="collaborator-grid">
   <div class="collaborator-tile">
+    <img class="collab-photo" src="/assets/images/bernard_postcard-scaled.jpg" alt="Bernard Akaawase">
+    <p class="collab-name"><a href="https://akaawase-bernard.github.io">Bernard Akaawase</a></p>
+    <p class="collab-affil">Postdoctoral Investigator · WHOI</p>
+    <p class="collab-affil">2026–</p>
+    <p class="collab-affil">Co-advising with Anthony Kirincich</p>
+    <p class="collab-research">Impact of waves on small-scale air-sea interaction and wind turbine fatigue</p>
+  </div>
+
+  <div class="collaborator-tile">
     <div class="collab-photo-placeholder"></div>
     <p class="collab-name">Tom Protin</p>
     <p class="collab-affil">PhD Student · Ifremer (Brest)</p>
