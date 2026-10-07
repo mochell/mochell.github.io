@@ -7,6 +7,8 @@ permalink: /talks/
 
 ## 2026
 
+Hell, M. C., Fox-Kemper, B., and Ayouche, A. Scale-aware analysis of coupled boundary layer turbulence to constrain cross-interface energy transfers *(remote)*. *International Liège Colloquium on Ocean Dynamics: Submesoscale Processes in the Ocean*, Liège, Belgium, 2026.
+
 Hell, M. C., Fox-Kemper, B., Ayouche, A., and Berner, J. Scale-aware analysis of coupled boundary layer turbulence to constrain cross-interface energy transfers. *ECMWF*, Bonn, Germany, 2026-03.
 
 Hell, M. C., Fox-Kemper, B., and Berner, J. Scale-aware analysis of coupled boundary layer turbulence to constrain cross-interface energy transfers. *AGU Ocean Sciences Meeting*, Glasgow, Ireland, 2026-02.
